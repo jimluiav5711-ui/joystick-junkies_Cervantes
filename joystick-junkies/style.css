@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.hero {
+    height: 350px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 100px;
+
+    background-image: url("images/header1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: headerSlideshow 12s infinite;
+}
+
+
+
+nav {
+    background-color: #D4AF37;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+
+    margin: 0 60px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #d4af37b0 ; 
+    padding: 40px;
+    margin: 40px auto;
+    width: 85%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+
+
+img {
+    width: 200px;
+    margin: 10px;
+}
+
+.games-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.games-text {
+    width: 50%;
+}
+
+.games-image {
+    width: 45%;
+    text-align: right;
+}
+
+
+.games-image img {
+    width: 150px;          
+    max-width: 100%;
+    border: 6px solid white;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+#gallery img {
+    width: 50px;             
+    height: auto;
+    margin: 10px;
+}
+
+#gallery {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #D4AF37;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+@keyframes headerSlideshow {
+    0% {
+        background-image: url("images/header1.jpg");
+    }
+    33% {
+        background-image: url("images/header2.jpg");
+    }
+    66% {
+        background-image: url("images/header3.jpg");
+    }
+    100% {
+        background-image: url("images/header1.jpg");
+    }
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+section h2 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #f1f1f1;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    color: #f1f1f1;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
